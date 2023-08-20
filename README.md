@@ -3,7 +3,7 @@ Better version of the LLM Model TUI. Yes, it got so bad I had to just rewrite it
 
 # Guide
 Basic guide for usage.
-## Downloading program
+## Downloading the program
 Run the following commands:
 
 <code>$ git clone https://github.com/N0THSA/llm-communicator.git && cd llm-communicator
@@ -19,3 +19,11 @@ $ python3 start.py</code>
 5. Launch the program and go through the wizard, specifying the model to use.
 
 It is worth noting that anything above 13b will be basically impossible to run under 32gb of ram, and 13b 8_0 usually needs more than 16gb of ram as well.
+
+## Running the program
+1. Run the following command:
+   <code>python3 start.py</code>
+   
+2. Follow the guide and fill in all applicable forms. Some are optional, such as information about you.
+3. Set the model path to the place you downloaded your GGML model.
+4. Enjoy!
