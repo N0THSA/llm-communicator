@@ -5,6 +5,7 @@ Better version of the LLM Model TUI. Yes, it got so bad I had to just rewrite it
 Basic guide for usage.
 ## Downloading program
 Run the following commands:
+
 <code>
 $ git clone https://github.com/N0THSA/llm-communicator.git && cd llm-communicator
 $ python3 check_dependencies.py (or check_dependencies_windows.py if you're on windows)
