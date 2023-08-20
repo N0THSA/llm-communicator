@@ -28,7 +28,7 @@ while True:
     THREADS = int(input(f"> {col.LIGHTBLUE_EX}"))
     break
   except ValueError:
-    print("Please enter a valid integer.")
+    print(f"{col.RESET}Please enter a valid integer.")
     
 print(f"{col.RESET}ANYTHING YOU WANT YOUR ASSISTANT TO KNOW ABOUT YOU?")
 userprompt = input(f"> {col.LIGHTBLUE_EX}")
@@ -36,7 +36,7 @@ userprompt = input(f"> {col.LIGHTBLUE_EX}")
 print(f"{col.RESET}MAXIMUM LENGTH OF RESPONSE? (IN TOKENS)")
 while True:
   try:
-    maxtokensf = input(f"> {col.LIGHTBLUE_EX}")
+    maxtokensf = int(input(f"> {col.LIGHTBLUE_EX}"))
     break
   except ValueError:
     print(f"{col.RESET}Please enter a valid integer.")   
