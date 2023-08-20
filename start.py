@@ -44,7 +44,7 @@ while True:
 N_PREDICTS = int(env_or_def("N_PREDICTS", maxtokensf))
 N_THREAD = int(env_or_def("N_THREAD", THREADS))
 
-print(f"\n{col.YELLOW}[{col.RESET}?{col.YELLOW}]{col.RESET} MODEL PATH?")
+print(f"\n{col.RESET}MODEL PATH?")
 MODELF = input("> ")
 MODEL = env_or_def("MODEL", MODELF)
 
