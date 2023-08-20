@@ -6,11 +6,9 @@ Basic guide for usage.
 ## Downloading program
 Run the following commands:
 
-<code>
-$ git clone https://github.com/N0THSA/llm-communicator.git && cd llm-communicator
+<code>$ git clone https://github.com/N0THSA/llm-communicator.git && cd llm-communicator
 $ python3 check_dependencies.py (or check_dependencies_windows.py if you're on windows)
-$ python3 start.py
-</code>
+$ python3 start.py</code>
 
 ## Installing models
 1. Make a folder at the root of your harddrive and name it "models".
