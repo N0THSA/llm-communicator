@@ -1,5 +1,4 @@
 from time import sleep
-from gpt4all import GPT4All
 from colorama import Fore as col 
 import sys, os, datetime
 from common import GptParams
