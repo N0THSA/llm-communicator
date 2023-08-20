@@ -13,7 +13,7 @@ print(f"\n{col.LIGHTBLUE_EX}Created by Nothsa.")
 print(f"{col.RED}WARNING: {col.RESET}Does not come with models. Download GGML models from {col.YELLOW}https://huggingface.co/{col.RESET}")
 sleep(1)
 print(f"\n{col.LIGHTBLUE_EX}================================{col.RESET}")
-print(f"Nothsa's GGML-Communicator")
+print(f"Nothsa's LLM-Communicator")
 print(f"{col.LIGHTBLUE_EX}================================{col.RESET}\n")
 
 print(f"{col.RESET}USER NAME?")
