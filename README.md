@@ -3,6 +3,14 @@ Better version of the LLM Model TUI. Yes, it got so bad I had to just rewrite it
 
 # Guide
 Basic guide for usage.
+## Downloading program
+Run the following commands:
+<code>
+$ git clone https://github.com/N0THSA/llm-communicator.git && cd llm-communicator
+$ python3 check_dependencies.py (or check_dependencies_windows.py if you're on windows)
+$ python3 start.py
+</code>
+
 ## Installing models
 1. Make a folder at the root of your harddrive and name it "models".
 2. Go to https://huggingface.co/ and look for GGML models by "TheBloke" (https://huggingface.co/TheBloke) You can also look for GGML models from elsewhere, but TheBloke is usually the easiest choice. Typically, the more parameters (3b, 7b, 13b etc) the higher the file size and the higher the system requirements. Anything above 13b is discouraged.
