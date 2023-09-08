@@ -28,8 +28,9 @@ clear(500)
 ###################################################
 
 # It is worth noting this program is only made for "chat mode".
+# Now exclusively works for GGUF files. I will include a script to convert GGML models to GGUF models.
 
-MODELF = "/models/codellama.gguf" # path to model
+MODELF = "/models/model.gguf" # path to model
 THREADS = 4 # default: 4
 maxtokensf = 2048 # maxiumum token output. WARNING: if hit, you need to restart the chat. most models support up to 2048 tokens.
 ASSISTANT_NAME = "Eddie" # default: Eddie
