@@ -1,6 +1,6 @@
 # llm-communicator
-## ~~WARNING: ONLY SUPPORTS GGML. GGUF models are not currently supported but are planned.~~
-### This appears to be an issue with the llama-cpp-python library.
+~~WARNING: ONLY SUPPORTS GGML. GGUF models are not currently supported but are planned.~~
+This appears to be an issue with the llama-cpp-python library.
 Better version of the LLM Model TUI. Yes, it got so bad I had to just rewrite it under a whole seperate name.
 Lots of code borrowed from [this repository.](https://github.com/abetlen/llama-cpp-python/tree/main/examples)
 
