@@ -224,14 +224,6 @@ n_keep = {self.params.n_keep}
 			self.first_antiprompt.append(self._tokenize(i, False))
 
 		self.last_n_tokens = [0]*self.n_ctx #TODO: deque doesnt support slices
-
-		if (params.interactive):
-			print("""== Running in interactive mode. ==
- - Press Ctrl+C to interject at any time.
- - Press Return to return control to LLaMa.
- - If you want to submit another line, end your input in '\\'.
-
-""", file=sys.stderr)
 		self.set_color(util.CONSOLE_COLOR_PROMPT)
 
 	# tokenize a prompt
