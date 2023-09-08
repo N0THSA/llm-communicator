@@ -8,6 +8,8 @@ import random
 from datetime import datetime
 currentdate = datetime.today().strftime('%m-%d-%Y')
 print("https://github.com/N0THSA/llm-communicator/")
+print(f"\nYou can modify the configuration inside this file...")
+sleep(2)
 # Functions
 def clear(num_times):
     for i in range(num_times):
