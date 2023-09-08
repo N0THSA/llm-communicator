@@ -1,5 +1,6 @@
 # llm-communicator
 # no longer supports gguf
+This project will now exclusively use the now outdated GGML format as it's been much kinder to me. Maybe when it's easier to implement, I'll update this repo to include GGUF support.
 
 
 Better version of the LLM Model TUI. Yes, it got so bad I had to just rewrite it under a whole seperate name.
