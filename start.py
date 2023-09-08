@@ -29,7 +29,7 @@ clear(500)
 
 # It is worth noting this program is only made for "chat mode".
 
-MODELF = "/models/llama2-13b.bin" # path to model
+MODELF = "/models/codellama.gguf" # path to model
 THREADS = 4 # default: 4
 maxtokensf = 2048 # maxiumum token output. WARNING: if hit, you need to restart the chat. most models support up to 2048 tokens.
 ASSISTANT_NAME = "Eddie" # default: Eddie
