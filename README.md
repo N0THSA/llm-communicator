@@ -1,5 +1,6 @@
 # llm-communicator
-GGUF IS NOT SUPPORTED YET!
+# NOW SUPPORTS GGUF!!!
+(convert your files in scripts/convert.py
 
 Better version of the LLM Model TUI. Yes, it got so bad I had to just rewrite it under a whole seperate name.
 Lots of code borrowed from [this repository.](https://github.com/abetlen/llama-cpp-python/tree/main/examples)
