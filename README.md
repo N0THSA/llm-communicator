@@ -15,6 +15,9 @@ Run the following commands:
 $ python3 check_dependencies.py (or check_dependencies_windows.py if you're on windows)
 $ cd .. && python3 start.py</code>
 
+Then, download Visual Studio 2022 (and if prompted any Python 3 utils).
+Llama.cpps Python 3 bindings 
+
 ## Installing models
 1. Make a folder at the root of your harddrive and name it "models".
 2. Go to https://huggingface.co/ and look for GGML models by "TheBloke" (https://huggingface.co/TheBloke) You can also look for GGML models from elsewhere, but TheBloke is usually the easiest choice. Typically, the more parameters (3b, 7b, 13b etc) the higher the file size and the higher the system requirements. Anything above 13b is discouraged.
